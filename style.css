@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+}
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfc;
+    color: rgb(243, 241, 241);
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.card {
+  position: absolute;
+  padding: 50px; 
+  width: 100%;
+  max-width: 350px;
+  background-color: rgba(63, 63, 63, 0.932);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.temp {
+  font-size: 35px;
+}
+
+.search {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar{
+  padding: 10px;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  background-color: rgba(99, 97, 97, 0.932);
+  color: white;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  width: 300px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 25px;
+  outline: none;
+  margin-left: 10px;
+  background-color: rgba(255, 251, 251, 0.932);
+  color: white;
+  /* border: none; */
+}
+button:hover {
+  cursor: pointer;
+  background-color: lightcyan;
+} 
+
+.description {
+  text-transform: capitalize;
+}
+
